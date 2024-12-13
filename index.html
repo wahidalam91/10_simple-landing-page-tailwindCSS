@@ -12,8 +12,9 @@
     rel="stylesheet"/>
 </head>
 <body>
-    <div class="main font-serif w-full h-screen bg-amber-100">
-        <div class="containe mx-auto">
+    <div class="main font-serif w-full h-screen">
+        <div class="container relative mx-auto h-screen">
+            <!-- Nav Bar -->
             <div class="nav-bar px-4 py-5 flex items-center justify-between">
                 <h2 class="font-bold">W_World</h2>
                 <div class="links hidden md:flex gap-10">
@@ -24,7 +25,23 @@
                 </div>
                 <i class="ri-menu-line md:hidden"></i>
             </div>
+            <!-- Banner Content -->
+            <div class="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] w-full flex flex-col items-center mt-20">
+                <!-- Banners Image -->
+                <div class="image w-24 h-24 lg:w-32 lg:h-32 rounded-full bg-sky-100 flex items-center justify-center">
+                    <img class="rounded-full w-24 h-24 object-cover " src="./dp.jpeg" alt="">
+                </div>
+                <!-- Banner Text -->
+                <h2 class="font-semibold text-xl mt-4">Hi, I'm Wahid<sup>👑</sup></h2>
+                <h1 class="w-full font-semibold text-center text-4xl leading-none mt-3 tracking-tighter">Building digital <br> products, brands, and <br> experience.</h1>
+                <p class="w-3/4 text-center mt-4 text-sm leading-none tracking-tight">a<span class="font-bold">Product Designer</span> and <span class="font-bold">Visual Developer</span> in SF. I specialize in UI/UX Design, Responsive Web Design and Visual Development.</p>
+
+                <!-- Banner-Button -->
+                <button class="mt-10 mb-20 bg-black text-white px-5 py-3 rounded-full font-semibold ">Connect with me</button>
+    
+            </div>
         </div>
+        
     </div>
 </body>
 </html> 
